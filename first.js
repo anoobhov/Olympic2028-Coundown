@@ -1,6 +1,6 @@
 const olympicDate = new Date("July 14, 2028 00:00:00").getTime();
 
-    // Function to update the countdown
+// Function for the countdown
 function updateCountdown() {
     const now = new Date().getTime();
     const timeLeft = olympicDate - now;
@@ -20,7 +20,7 @@ function updateCountdown() {
         document.querySelector('.hours').innerHTML = `<h2>${hours} Hours</h2>`;
         document.querySelector('.minutes').innerHTML = `<h2>${minutes} Minutes</h2>`;
         document.querySelector('.seconds').innerHTML = `<h2>${seconds} Seconds</h2>`;
-    }
+}
 
     setInterval(updateCountdown, 1000);
 

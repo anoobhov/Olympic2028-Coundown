@@ -1,4 +1,27 @@
+*{
+    margin: 0;
+    pad: 0;
+}
+
+
 .firstline,.secondline{
     display: flex;
     gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: aqua;
+    
+}
+
+.heading{
+    text-align: center;
+    background-color: bisque;
+    margin-bottom: 10%;
+    color: red;
+}
+.heading>h1{
+    font-size: 3rem;
+    font-weight: 50;
+    font-family: 'Gill Sans', 'Gill Sans MT';
 }
