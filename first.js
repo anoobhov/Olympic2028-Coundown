@@ -14,12 +14,12 @@ function updateCountdown() {
     const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
         // Update the countdown elements
-        document.querySelector('.years').innerHTML = `<h2>${years}</h2><p>Years</p>`;
-        document.querySelector('.months').innerHTML = `<h2>${months}</h2><p>Months</p>`;
-        document.querySelector('.days').innerHTML = `<h2>${days}</h2><p>Days</p>`;
-        document.querySelector('.hours').innerHTML = `<h2>${hours}</h2><p>Hours</p>`;
-        document.querySelector('.minutes').innerHTML = `<h2>${minutes}</h2><p>Minutes</p>`;
-        document.querySelector('.seconds').innerHTML = `<h2>${seconds}</h2><p>Seconds</p>`;
+        document.querySelector('.years').innerHTML = `<h2>${years} Years</h2>`;
+        document.querySelector('.months').innerHTML = `<h2>${months} Months</h2>`;
+        document.querySelector('.days').innerHTML = `<h2>${days} Days</h2>`;
+        document.querySelector('.hours').innerHTML = `<h2>${hours} Hours</h2>`;
+        document.querySelector('.minutes').innerHTML = `<h2>${minutes} Minutes</h2>`;
+        document.querySelector('.seconds').innerHTML = `<h2>${seconds} Seconds</h2>`;
     }
 
     setInterval(updateCountdown, 1000);
