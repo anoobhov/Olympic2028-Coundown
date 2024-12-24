@@ -1,4 +1,4 @@
-const olympicDate = new Date("July 14, 2028 00:00:00").getTime();
+const olympicDate = new Date("July 21, 2028 00:00:00").getTime();
 
 // Function for the countdown
 function updateCountdown() {
