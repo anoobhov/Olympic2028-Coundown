@@ -6,6 +6,25 @@
 body{
     background: linear-gradient(135deg,red,blue);
     height: 100vh;
+    animation: gradientChange 10s infinite alternate;
+}
+
+@keyframes gradientChange {
+    0% {
+        background: linear-gradient(135deg, red, blue);
+    }
+    25% {
+        background: linear-gradient(135deg, blue, purple);
+    }
+    50% {
+        background: linear-gradient(135deg, purple, green);
+    }
+    75% {
+        background: linear-gradient(135deg, green, yellow);
+    }
+    100% {
+        background: linear-gradient(135deg, yellow, red);
+    }
 }
 .firstline,.secondline{
     display: flex;
