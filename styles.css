@@ -3,21 +3,23 @@
     pad: 0;
 }
 
-
+body{
+    background: linear-gradient(135deg,red,blue);
+    height: 100vh;
+}
 .firstline,.secondline{
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     padding-left: 7rem;
     padding-top: 3rem;
-    padding-bottom: 1rem;
-    background-color: aqua;
     font-family:sans-serif;
+    
 }
 
 .heading{
     padding: 7rem;
-    background-color: bisque;
-    color: red;
+    /* background-color: bisque; */
+    color: white;
 }
 .heading>h1{
     font-size: 3rem;
@@ -27,4 +29,7 @@
 
 .heading>p{
     font-size: smaller;
+}
+.coundown{
+    color: rgb(228, 224, 224);
 }
